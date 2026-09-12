@@ -1,29 +1,41 @@
-# 📈 Sales Forecasting & Business Analytics
+# 📊 Data Science Projects Portfolio
 
-## 📌 Project Overview
-Built a data-driven sales forecasting system to help business identify key sales drivers and predict future revenue. Analyzed product, region, monthly, and salesperson-wise trends to give actionable business insights.
+### by Sanjai | Aspiring Data Scientist
 
-## 🛠️ Tools & Tech Stack
+---
+
+## Project 01: Sales Forecasting & Business Analytics 📈
+
+### 📌 Project Overview
+Built a data-driven sales forecasting system to help business identify key sales drivers and predict future revenue. Analyzed product, region, monthly, and salesperson-wise trends.
+
+### 🛠️ Tools & Tech Stack
 - **Language:** Python
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 - **ML Models:** Linear Regression, Random Forest Regressor
 
-## 🔍 Key Work Done
-1.  **Data Cleaning:** Handled missing values, handled date formats, removed duplicates
-2.  **EDA (Exploratory Data Analysis):** Analyzed sales trends by Product, Region, Month, and Salesperson
-3.  **Feature Engineering:** Created new features from Date (Month, Year) for better prediction
-4.  **Model Building:** 
-    - Linear Regression for baseline prediction
-    - Random Forest Regressor for better accuracy
-5.  **Model Evaluation:** Evaluated using MAE, MSE, and R² Score
-6.  **Feature Importance:** Used Random Forest to find which factors influence sales the most
+### 🔑 Key Work Done
+1. Data Cleaning: Handled missing values, date formats, removed duplicates
+2. EDA & Visualization: Sales trends analysis
+3. Forecasting Model
 
-## 📊 Results
-- Random Forest model gave higher R² and lower error than Linear Regression
-- Identified top-performing Regions, Products, and Salespersons
-- Found monthly seasonality in sales
+**Files:** `project01.py`, `sales_data.csv`
 
-## ▶️ How to Run
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-python project01.py
+---
+
+## Project 02: Healthcare & Patient Risk Analysis 🏥
+
+### 📌 Project Overview
+Analyzed healthcare patient data to understand patient risk levels based on medical parameters like BMI, Blood Pressure, Cholesterol, Glucose, Smoking habits etc.
+
+### 🛠️ Tools & Tech Stack
+- **Language:** Python
+- **Libraries:** Pandas, NumPy
+
+### 🔑 Key Work Done
+1. Data Cleaning: Checked `df.shape`, `df.info()`, `df.isnull()`, removed duplicates
+2. Exploratory Data Analysis on patient risk factors
+3. Risk Level classification (Low/High)
+
+**Files:** `project02.py`, `healthcare_patient_risk_dataset.csv`
+Dataset Columns: Patient_ID, Age, Gender, BMI, Blood_Pressure, Cholesterol, Glucose, Smoking, Exercise_Hours, Heart_Rate, Diabetes, Risk_Level 
